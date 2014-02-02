@@ -1,0 +1,10 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="SmartCA.Presentation.MainWindow"
+    Title="Main Menu - SmartCA" Height="412" Width="496" Background="{StaticResource FormBackgroundBrush}">
+    <Grid>
+    	<Button Margin="40,54,0,0" Name="selectProjectButton" Click="selectProjectButton_Clicked" Content="Select Project" Style="{StaticResource baseButton}"/>
+    	<Button Margin="200,54,0,0" Name="projectInformationButton" Click="projectInformationButton_Clicked" Content="Project Information" Style="{DynamicResource baseButton}"/>
+  </Grid>
+</Window>

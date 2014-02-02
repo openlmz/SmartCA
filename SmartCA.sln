@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFD67FD2-F10A-42A0-8C87-41E0A0E3C1E7}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		SmartCA1.vsmdi = SmartCA1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Model", "SmartCA.Model\SmartCA.Model.csproj", "{047216A5-1F0E-4451-B558-A303D292A787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Infrastructure", "SmartCA.Infrastructure\SmartCA.Infrastructure.csproj", "{9ECA514B-A757-4CA6-814E-F66B049913AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Application", "SmartCA.Application\SmartCA.Application.csproj", "{3B916633-1ED1-4535-A446-75B321901942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Infrastructure.Repositories", "SmartCA.Infrastructure.Repositories\SmartCA.Infrastructure.Repositories.csproj", "{27687565-02AA-4D95-8ED8-DAF29EF3AC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Infrastructure.UI", "SmartCA.Infrastructure.UI\SmartCA.Infrastructure.UI.csproj", "{CBED97F3-00EC-495E-BCB8-A0EFEE8824DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.Presentation", "SmartCA.Presentation\SmartCA.Presentation.csproj", "{1892B069-D95E-48B9-975B-2C3B11354D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCA.UnitTests", "SmartCA.UnitTests\SmartCA.UnitTests.csproj", "{7947D92D-CCDA-424E-ABB9-96A00EC50D4D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SmartCA1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{047216A5-1F0E-4451-B558-A303D292A787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047216A5-1F0E-4451-B558-A303D292A787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047216A5-1F0E-4451-B558-A303D292A787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047216A5-1F0E-4451-B558-A303D292A787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ECA514B-A757-4CA6-814E-F66B049913AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ECA514B-A757-4CA6-814E-F66B049913AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ECA514B-A757-4CA6-814E-F66B049913AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ECA514B-A757-4CA6-814E-F66B049913AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B916633-1ED1-4535-A446-75B321901942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B916633-1ED1-4535-A446-75B321901942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B916633-1ED1-4535-A446-75B321901942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B916633-1ED1-4535-A446-75B321901942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27687565-02AA-4D95-8ED8-DAF29EF3AC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBED97F3-00EC-495E-BCB8-A0EFEE8824DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBED97F3-00EC-495E-BCB8-A0EFEE8824DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBED97F3-00EC-495E-BCB8-A0EFEE8824DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBED97F3-00EC-495E-BCB8-A0EFEE8824DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1892B069-D95E-48B9-975B-2C3B11354D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1892B069-D95E-48B9-975B-2C3B11354D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1892B069-D95E-48B9-975B-2C3B11354D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1892B069-D95E-48B9-975B-2C3B11354D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7947D92D-CCDA-424E-ABB9-96A00EC50D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7947D92D-CCDA-424E-ABB9-96A00EC50D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7947D92D-CCDA-424E-ABB9-96A00EC50D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7947D92D-CCDA-424E-ABB9-96A00EC50D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
