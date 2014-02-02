@@ -126,6 +126,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="testofgit.cs" />
     <Compile Include="ViewModels\MutableAddress.cs" />
     <Compile Include="ViewModels\ProjectInformationViewModel.cs" />
     <Compile Include="ViewModels\SelectProjectViewModel.cs" />
